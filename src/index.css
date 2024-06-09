@@ -1,0 +1,40 @@
+.event-color-c {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.event-color-label {
+    margin-right: 8px;
+}
+
+.event-color {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+
+.crud-color-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.crud-color-c {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.crud-color-c.selected {
+    border: 2px solid #000;
+}
+
+.mbsc-popup-button-primary {
+    background: #007aff;
+    color: #fff;
+}
